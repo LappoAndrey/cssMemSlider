@@ -4,31 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="stye.css">
+    <title>CSS Mem Slider</title>
 </head>
 <body>
-    <div class="slider middle">
+    <div class="main_fraim middle">
+        <div class="slider middle_slide">
 
-        <div class="slides">
+            <div class="slides">
 
-            <input type="radio" name="rb" id="rb1" checked>
-            <input type="radio" name="rb" id="rb2" checked>
-            <input type="radio" name="rb" id="rb3" checked>
-            <input type="radio" name="rb" id="rb4" checked>
+                <input type="radio" checked="checked" name="rb" id="rb1"/>
+                <input type="radio" name="rb" id="rb2"/>
+                <input type="radio" name="rb" id="rb3"/>
+                <input type="radio" name="rb" id="rb4"/>
 
-            <div class="slide"><img src="./img/1.jpg" alt=""></div>
-            <div class="slide"><img src="./img/2.jpg" alt=""></div>
-            <div class="slide"><img src="./img/3.jpg" alt=""></div>
-            <div class="slide"><img src="./img/4.jpg" alt=""></div>
+                <div class="slide s1"><img src="./img/1.jpg" alt=""></div>
+                <div class="slide s2"><img src="./img/2.jpg" alt=""></div>
+                <div class="slide s3"><img src="./img/3.jpg" alt=""></div>
+                <div class="slide s4"><img src="./img/4.jpg" alt=""></div>
+
+
+                
+
+            </div>
+
+
 
         </div>
 
+
         <div class="navigation">
 
-            <label for="rb1" class="bar"></label>
-            <label for="rb2" class="bar"></label>
-            <label for="rb3" class="bar"></label>
-            <label for="rb4" class="bar"></label>
+            <label for="rb1" class="bar bar1" id="label"><span class="label_pointer"></span></label>
+            <label for="rb2" class="bar bar2" id="label"><span class="label_pointer"></span></label>
+            <label for="rb3" class="bar bar3" id="label"><span class="label_pointer"></span></label>
+            <label for="rb4" class="bar bar4" id="label"><span class="label_pointer"></span></label>
 
         </div>
 
